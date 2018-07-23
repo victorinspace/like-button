@@ -5,13 +5,25 @@
 }
 
 #button {
-  width: 300px;
-  height: 150px;
+  width: 150px;
+  height: 70px;
+  font-size: 1.5em;
   margin: 50px auto;
-  color: #fff;
+  color: #e0f7fa;
   text-align: center;
-  background: blue;
-  border: 3px solid black; 
-  border-radius: 3px;
+  background: #00bcd4;
+  border-bottom: 5px solid #00838f; 
+  border-radius: 10px;
   cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button:active {
+  /*outline: none;*/
+  border-bottom: none;
+  height: 65px;
+    transform: translateY(4px);
 }
